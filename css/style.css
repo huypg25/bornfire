@@ -1,0 +1,220 @@
+@-ms-viewport {
+  width: device-width;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-weight: normal;
+  overflow-x: hidden;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.list-img {
+  position: relative;
+}
+.list-img .prev_arrow {
+  color: black;
+  z-index: 100;
+  position: absolute;
+  bottom: 150px;
+  left: -10%;
+  font-size: 34px;
+  font-style: italic;
+  cursor: pointer;
+  opacity: 0;
+}
+.list-img .next_arrow {
+  color: black;
+  z-index: 100;
+  position: absolute;
+  bottom: 150px;
+  right: -10%;
+  font-size: 34px;
+  font-style: italic;
+  cursor: pointer;
+  opacity: 0;
+}
+header {
+  background-image: url("../img/background.jpg");
+  background-size: contain;
+  height: 1000px;
+  max-height: 1000px;
+}
+header .header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+header .header-nav .logo {
+  padding-left: 100px;
+  padding-top: 30px;
+}
+header .header-banner .header-txt {
+  padding-left: 15px;
+  width: 80%;
+  transform: translate(0, 111%);
+}
+header .header-banner .header-txt-1 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5em;
+  font-size: 24px;
+  line-height: 32.23px;
+  color: #696969;
+  transform: translate(4px, -107%);
+}
+header .header-banner .header-txt-2 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+header .header-banner .header-txt .disc-btn {
+  transform: translate(0, 280%);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+header .header-banner .header-txt .disc-btn a {
+  color: #fff;
+  padding: 14px 29px;
+  background-color: black;
+}
+header .header-banner .social-link {
+  transform: translate(385px, 331px);
+  text-align: right;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  line-height: 40px;
+}
+header .header-banner .social-link a {
+  color: white;
+}
+header .header-banner .social-link a:hover::after {
+  background-color: #000;
+  content: "";
+  display: block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 67%;
+  transform: translate(137px, -18px);
+}
+.header-bottom {
+  border-bottom: 1px solid red;
+}
+.header-bottom .col-4 {
+  height: 80px;
+  width: 33.3333%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 15px 0;
+  margin: 0;
+  border-right: 1px solid red;
+}
+.header-bottom .col-4:last-child {
+  border-right: none;
+}
+.header-bottom .col-4 .ct {
+  text-align: center;
+}
+.header-bottom .col-4 .ct .txt-3 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.header-bottom .col-4 .ct .txt-4 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ababab;
+}
+.header-bottom .col-4 .t1 {
+  padding-top: 18px;
+  padding-left: 1px;
+  height: 80px;
+  border-left: 1px solid red;
+}
+.header-bottom .col-4 .t1 .txt-4 {
+  padding-top: 4px;
+}
+.header-bottom .col-4 .t2 {
+  padding-top: 19px;
+  padding-left: 5px;
+}
+.header-bottom .col-4 .t2 .txt-4 {
+  padding-top: 3px;
+}
+.header-bottom .col-4 .t3 {
+  height: 80px;
+  border-right: 1px solid red;
+}
+.header-bottom .col-4 .t3 .txt-3 {
+  transform: translate(-13px, 19px);
+}
+.header-bottom .col-4 .t3 .txt-4 {
+  transform: translate(-13px, 22px);
+}
+.slogan {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 48px;
+  padding: 114px 0;
+  margin-bottom: -8px;
+}
+/*# sourceMappingURL=style.css.map */

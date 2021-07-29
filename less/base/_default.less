@@ -1,0 +1,91 @@
+@-ms-viewport {
+    width: device-width;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    font-weight: normal;
+    overflow-x: hidden;
+    
+}
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+a{
+    text-decoration: none;
+ 
+}
+ul{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style: none;
+    }
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-fluid{
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.list-img{
+   
+        position: relative;
+   
+    
+    .prev_arrow{
+        color: black;
+        z-index: 100;
+        position: absolute;
+        bottom: 150px;
+        left: -10%;
+        font-size: 34px;
+        font-style: italic;
+        cursor: pointer;
+opacity: 0;
+
+    }
+    .next_arrow{
+        color: black;
+        z-index: 100;
+        position: absolute;
+        bottom: 150px;
+        right:  -10%;
+        font-size: 34px;
+        font-style: italic;
+        cursor: pointer;
+        opacity: 0;
+    }
+ 
+}
