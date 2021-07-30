@@ -1,6 +1,7 @@
 header {
+  background-repeat: no-repeat;
   background-image: url("../img/background.jpg");
-  background-size: contain;
+  background-size: cover;
   height: 1000px;
   max-height: 1000px;
   .header-nav {
@@ -11,6 +12,17 @@ header {
       padding-top: 30px;
     }
     nav {
+      transform: translate(-83px, 17px);
+     ul{
+      display: flex;
+      .iconify{
+        color: white;
+        width: 30px; height: 30px; 
+      }
+      li{
+        padding: 21px;
+      }
+     }
     }
   }
   .header-banner {
@@ -77,5 +89,4 @@ header {
       }
     }
   }
-
 }
