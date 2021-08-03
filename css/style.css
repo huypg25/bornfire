@@ -248,7 +248,7 @@ header .header-banner .social-link a:hover::after {
 }
 .banner-ct img {
   display: block;
-  width: 100%;
+  height: 520px;
 }
 .banner .hidden-banner {
   display: none;
@@ -264,7 +264,7 @@ header .header-banner .social-link a:hover::after {
   position: absolute;
   width: 100%;
   text-align: center;
-  transform: translate(1px, -111px);
+  transform: translate(0px, -115px);
 }
 .banner .txt-banner-1 .txt-8 {
   font-family: "Fira Sans", sans-serif;
@@ -293,7 +293,7 @@ header .header-banner .social-link a:hover::after {
 }
 .banner-3 .box-txt-3 {
   position: absolute;
-  bottom: 99px;
+  bottom: 102px;
   left: 47px;
 }
 .banner-3 .box-txt-3 .btxt-5 {
@@ -385,7 +385,7 @@ header .header-banner .social-link a:hover::after {
 }
 .banner-6 .box-txt-6 {
   position: absolute;
-  top: 141px;
+  top: 138px;
   left: 53px;
 }
 .banner-6 .box-txt-6 .btxt-8 {
@@ -408,7 +408,7 @@ header .header-banner .social-link a:hover::after {
   position: absolute;
   width: 100%;
   text-align: center;
-  transform: translate(5px, -108px);
+  transform: translate(0px, -115px);
 }
 .banner .txt-banner-5 .txt-8 {
   font-family: "Fira Sans", sans-serif;
@@ -428,14 +428,13 @@ header .header-banner .social-link a:hover::after {
   line-height: 36px;
 }
 .banner .space {
-  margin-bottom: 14px;
+  margin-bottom: 19px;
 }
 .banner .col-3 {
   width: 25%;
   padding: 0 15px;
   box-sizing: border-box;
   margin: 15px 0;
-  margin: 19px 0;
   padding: 0 25px;
 }
 .banner .col-6 {
@@ -765,6 +764,12 @@ footer .ftb-right ul li a:hover {
   color: black;
 }
 @media all and (max-width: 1170px) {
+  .prev {
+    left: 0 !important;
+  }
+  .next {
+    right: 0 !important;
+  }
   header {
     background-size: cover;
     height: 111vh;
@@ -796,6 +801,7 @@ footer .ftb-right ul li a:hover {
     width: 263px;
   }
   .list .list-bot .item .list-img .s-img img {
+    display: block;
     width: 100%;
   }
   .banner-2 .box-banner .box {
@@ -871,18 +877,6 @@ footer .ftb-right ul li a:hover {
     display: block;
     width: 100%;
   }
-  .list .list-bot .item:hover .product-action-grid {
-    top: 230px;
-    width: 226px;
-  }
-  .list .list-bot .item .product-action-grid {
-    width: 226px;
-    top: 265px;
-  }
-  .list .list-bot .item .list-img .s-img img {
-    display: block;
-    width: 100%;
-  }
   .brand .brd img {
     display: block;
     width: 100%;
@@ -892,6 +886,14 @@ footer .ftb-right ul li a:hover {
   }
 }
 @media all and (max-width: 1024px) {
+  .prev {
+    bottom: 133px !important;
+    left: 0 !important;
+  }
+  .next {
+    bottom: 133px !important;
+    right: 0 !important;
+  }
   header {
     background-size: cover;
     height: 98vh;
@@ -1347,6 +1349,13 @@ footer .ftb-right ul li a:hover {
   header .header-banner .header-txt {
     transform: translate(13%, 43%);
   }
+  header .header-banner .header-txt .disc-btn {
+    font-size: 8px;
+    line-height: 9px;
+  }
+  header .header-banner .header-txt .disc-btn a {
+    padding: 5px 5px;
+  }
   header .header-banner .header-txt-1 {
     font-size: 8px;
     line-height: 6.23px;
@@ -1355,13 +1364,6 @@ footer .ftb-right ul li a:hover {
   header .header-banner .header-txt-2 {
     font-size: 20px;
     line-height: 17px;
-  }
-  header .header-banner .disc-btn {
-    font-size: 8px;
-    line-height: 9px;
-  }
-  header .header-banner .disc-btn a {
-    padding: 7px 11px;
   }
   .header-bottom .col-4 .ct .txt-3 {
     font-size: 13px;
@@ -1407,6 +1409,10 @@ footer .ftb-right ul li a:hover {
     font-size: 15px;
     padding: 25px 0;
     line-height: 20px;
+  }
+  .banner-ct img {
+    display: block;
+    width: 100%;
   }
   .banner .banner-1-hide {
     display: none;

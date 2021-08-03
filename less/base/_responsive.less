@@ -1,4 +1,10 @@
 @media all and (max-width: 1170px) {
+  .prev{
+    left: 0 !important;
+  }
+  .next{
+    right: 0 !important;
+  }
   header {
     background-size: cover;
     height: 111vh;
@@ -44,6 +50,7 @@
         .list-img {
           .s-img {
             img {
+              display: block;
               width: 100%;
             }
           }
@@ -149,30 +156,7 @@
 
     }
   }
-  .list {
-    .list-bot {
-      .item {
-        &:hover {
-          .product-action-grid {
-            top: 230px;
-            width: 226px;
-          }
-        }
-        .product-action-grid {
-          width: 226px;
-          top: 265px;
-        }
-        .list-img {
-          .s-img {
-            img {
-              display: block;
-              width: 100%;
-            }
-          }
-        }
-      }
-    }
-  }
+ 
   .brand{
     .brd{
 img{
@@ -188,6 +172,14 @@ img{
   }
 }
 @media all and (max-width: 1024px) {
+  .prev{
+    bottom: 133px !important;
+    left: 0 !important;
+  }
+  .next{
+    bottom: 133px !important;
+    right: 0 !important;
+  }
   header {
     background-size: cover;
     height: 98vh;
@@ -787,6 +779,13 @@ img{
       }
 
       .header-txt {
+        .disc-btn {
+          font-size: 8px;
+          line-height: 9px;
+          a {
+            padding: 5px 5px;       
+           }
+        }
         transform: translate(13%, 43%);
         &-1 {
           font-size: 8px;
@@ -799,12 +798,7 @@ img{
         }
       }
 
-      .disc-btn {
-        font-size: 8px;
-        line-height: 9px;
-        a {
-          padding: 7px 11px;        }
-      }
+     
     }
   }
   .header-bottom .col-4 .ct .txt-3 {
@@ -856,6 +850,13 @@ img{
     line-height: 20px;
   }
   .banner {
+    &-ct{
+      // margin-bottom: 3px;
+     img{
+       display: block;
+       width: 100%;
+     }
+    }
     .banner-1-hide {
       display: none;
     }
@@ -1017,6 +1018,7 @@ img{
         }
       }
       .sb-btn {
+       
         transform: translate(0, 0);
         display: block;
         margin-left: auto;
