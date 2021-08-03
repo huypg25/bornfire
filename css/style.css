@@ -319,14 +319,14 @@ header .header-banner .social-link a:hover::after {
   height: 340px;
   position: absolute;
   top: 86px;
-  right: 24px;
+  right: 29px;
   box-sizing: border-box;
-  border: 5px solid   red;
+  border: 5px solid   white;
 }
 .banner .box-banner .box-txt {
   position: absolute;
   top: 108px;
-  right: 9px;
+  right: 14px;
 }
 .banner .box-banner .box-txt .btxt-1 {
   font-family: "Fira Sans", sans-serif;
@@ -366,7 +366,7 @@ header .header-banner .social-link a:hover::after {
   content: '';
   width: 0;
   height: 0;
-  border-bottom: 330px solid red;
+  border-bottom: 330px solid white;
   border-right: 269px solid transparent;
   position: absolute;
   top: 0;
