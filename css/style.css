@@ -258,13 +258,13 @@ header .header-banner .social-link a:hover::after {
 }
 .banner-1 {
   position: relative;
-  transform: translateX(-10px);
+  transform: translateX(-8px);
 }
 .banner .txt-banner-1 {
   position: absolute;
   width: 100%;
   text-align: center;
-  transform: translate(3px, -120px);
+  transform: translate(1px, -111px);
 }
 .banner .txt-banner-1 .txt-8 {
   font-family: "Fira Sans", sans-serif;
@@ -293,7 +293,7 @@ header .header-banner .social-link a:hover::after {
 }
 .banner-3 .box-txt-3 {
   position: absolute;
-  bottom: 108px;
+  bottom: 99px;
   left: 47px;
 }
 .banner-3 .box-txt-3 .btxt-5 {
@@ -385,7 +385,7 @@ header .header-banner .social-link a:hover::after {
 }
 .banner-6 .box-txt-6 {
   position: absolute;
-  top: 138px;
+  top: 141px;
   left: 53px;
 }
 .banner-6 .box-txt-6 .btxt-8 {
@@ -408,7 +408,7 @@ header .header-banner .social-link a:hover::after {
   position: absolute;
   width: 100%;
   text-align: center;
-  transform: translate(5px, -119px);
+  transform: translate(5px, -108px);
 }
 .banner .txt-banner-5 .txt-8 {
   font-family: "Fira Sans", sans-serif;
@@ -435,6 +435,7 @@ header .header-banner .social-link a:hover::after {
   padding: 0 15px;
   box-sizing: border-box;
   margin: 15px 0;
+  margin: 19px 0;
   padding: 0 25px;
 }
 .banner .col-6 {
@@ -459,7 +460,7 @@ header .header-banner .social-link a:hover::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 100px;
+  padding-top: 105px;
 }
 .list .list-top h3 {
   font-size: 56px;
