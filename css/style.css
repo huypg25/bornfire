@@ -246,6 +246,10 @@ header .header-banner .social-link a:hover::after {
   padding: 114px 0;
   margin-bottom: -8px;
 }
+.banner-ct img {
+  display: block;
+  width: 100%;
+}
 .banner .hidden-banner {
   display: none;
 }
@@ -445,7 +449,7 @@ header .header-banner .social-link a:hover::after {
 }
 .banner .container {
   max-width: 1750px;
-  width: 1750px;
+  width: 100%;
   padding-right: 25px;
   padding-left: 25px;
   margin-right: auto;
@@ -462,6 +466,7 @@ header .header-banner .social-link a:hover::after {
   font-weight: bold;
 }
 .list .list-top .vm-btn {
+  color: #404040;
   transform: translate(-1px, -55px);
   font-family: "Fira Sans", sans-serif;
   font-size: 14px;
@@ -792,8 +797,23 @@ footer .ftb-right ul li a:hover {
   .list .list-bot .item .list-img .s-img img {
     width: 100%;
   }
+  .banner-2 .box-banner .box {
+    width: 278px;
+    transform: scale(0.6);
+    height: 339px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    box-sizing: border-box;
+  }
+  .banner-2 .box-banner .box-txt {
+    transform: scale(0.6);
+    position: absolute;
+    top: 25px;
+    right: -3px;
+  }
   .banner .container {
-    width: 1170px;
+    width: 100%;
   }
   .banner .container .banner-ct img {
     width: 100%;
@@ -843,7 +863,31 @@ footer .ftb-right ul li a:hover {
     line-height: 14px;
   }
   .blog .col-4 {
+    margin: auto;
     padding: 0px 10px;
+  }
+  .blog .col-4 .blg .img-top {
+    display: block;
+    width: 100%;
+  }
+  .list .list-bot .item:hover .product-action-grid {
+    top: 230px;
+    width: 226px;
+  }
+  .list .list-bot .item .product-action-grid {
+    width: 226px;
+    top: 265px;
+  }
+  .list .list-bot .item .list-img .s-img img {
+    display: block;
+    width: 100%;
+  }
+  .brand .brd img {
+    display: block;
+    width: 100%;
+  }
+  footer .sb-btn {
+    transform: translate(-20px, 62px);
   }
 }
 @media all and (max-width: 1024px) {
@@ -871,8 +915,23 @@ footer .ftb-right ul li a:hover {
   header .header-banner .social-link a:hover::after {
     transform: translate(90px, -10px);
   }
+  .banner-2 .box-banner .box {
+    width: 278px;
+    transform: scale(0.45);
+    height: 339px;
+    position: absolute;
+    top: -35px;
+    right: -23px;
+    box-sizing: border-box;
+  }
+  .banner-2 .box-banner .box-txt {
+    transform: scale(0.45);
+    position: absolute;
+    top: 5px;
+    right: -12px;
+  }
   .banner .container {
-    width: 1024px;
+    width: 100%;
   }
   .banner .container .banner-ct img {
     width: 100%;
@@ -922,6 +981,7 @@ footer .ftb-right ul li a:hover {
     line-height: 14px;
   }
   .blog .col-4 {
+    margin: auto;
     padding: 0px 10px;
   }
   .list .list-bot .item:hover .product-action-grid {
@@ -977,44 +1037,53 @@ footer .ftb-right ul li a:hover {
   .slogan {
     font-size: 30px;
   }
+  .banner .box-banner .box {
+    top: -68px;
+    right: -60px;
+  }
+  .banner .box-banner .box-txt {
+    top: -36px;
+    right: -50px;
+  }
   .banner .col-3 {
     padding: 0 15px;
   }
   .banner .col-6 {
     padding: 0 15px;
   }
-  .banner .container {
-    width: 768px;
-  }
   .banner .container .banner-ct img {
     width: 100%;
     height: 208.25px;
   }
   .banner .container .banner-ct .txt-banner-1 {
-    transform: translate(3px, -100px);
+    transform: translate(3px, -50px);
   }
   .banner .container .banner-ct .txt-banner-1 .txt-8 {
-    font-size: 18px;
+    font-size: 12px;
+    line-height: 0px;
   }
   .banner .container .banner-ct .txt-banner-1 .txt-9 {
+    font-size: 19px;
     line-height: 0px;
   }
   .banner .container .banner-ct .txt-banner-5 {
-    transform: translate(3px, -100px);
+    transform: translate(3px, -50px);
   }
   .banner .container .banner-ct .txt-banner-5 .txt-8 {
-    font-size: 18px;
+    font-size: 12px;
+    line-height: 0px;
   }
   .banner .container .banner-ct .txt-banner-5 .txt-9 {
+    font-size: 19px;
     line-height: 0px;
   }
   .banner .container .banner-ct .box-txt-3 {
-    bottom: 85px;
-    left: 46px;
+    bottom: 63px;
+    left: 31px;
   }
   .banner .container .banner-ct .box-txt-3 .btxt-5 {
-    font-size: 13px;
-    line-height: 0;
+    font-size: 9px;
+    line-height: 22px;
   }
   .banner .container .banner-ct .box-txt-3 .btxt-6 {
     font-size: 35px;
@@ -1022,21 +1091,22 @@ footer .ftb-right ul li a:hover {
     line-height: 0;
   }
   .banner .container .banner-ct .box-txt-6 {
-    top: 100px;
-    left: 63px;
+    top: 52px;
+    left: 20px;
   }
   .banner .container .banner-ct .box-txt-6 .btxt-8 {
-    font-size: 38px;
-    line-height: 34px;
+    font-size: 26px;
+    line-height: 26px;
   }
   .banner .container .banner-ct .box-txt-6 .btxt-9 {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 10px;
+    line-height: 13px;
   }
   .blog h3 {
     transform: translate(-180%, -60%);
   }
   .blog .col-4 {
+    margin: auto;
     padding: 0px 10px;
   }
   .list .list-bot .col-3 {
@@ -1152,27 +1222,24 @@ footer .ftb-right ul li a:hover {
     width: 66.6667%;
     padding: 0 15px;
   }
-  .banner .container {
-    width: 576px;
-  }
   .banner .container .banner-ct img {
     width: 100%;
     height: 208.25px;
   }
   .banner .container .banner-ct .txt-banner-1 {
-    transform: translate(3px, -100px);
+    transform: translate(3px, -50px);
   }
   .banner .container .banner-ct .txt-banner-1 .txt-8 {
-    font-size: 18px;
+    font-size: 15px;
   }
   .banner .container .banner-ct .txt-banner-1 .txt-9 {
     line-height: 0px;
   }
   .banner .container .banner-ct .txt-banner-5 {
-    transform: translate(3px, -100px);
+    transform: translate(3px, -50px);
   }
   .banner .container .banner-ct .txt-banner-5 .txt-8 {
-    font-size: 18px;
+    font-size: 15px;
   }
   .banner .container .banner-ct .txt-banner-5 .txt-9 {
     line-height: 0px;
@@ -1182,28 +1249,16 @@ footer .ftb-right ul li a:hover {
     left: 46px;
   }
   .banner .container .banner-ct .box-txt-3 .btxt-5 {
-    font-size: 13px;
+    font-size: 8px;
     line-height: 0;
   }
   .banner .container .banner-ct .box-txt-3 .btxt-6 {
-    font-size: 35px;
+    font-size: 25px;
     word-spacing: 0;
     line-height: 0;
   }
-  .banner .container .banner-ct .box-txt-6 {
-    top: 100px;
-    left: 63px;
-  }
-  .banner .container .banner-ct .box-txt-6 .btxt-8 {
-    font-size: 38px;
-    line-height: 34px;
-  }
-  .banner .container .banner-ct .box-txt-6 .btxt-9 {
-    font-size: 12px;
-    line-height: 14px;
-  }
   .blog h3 {
-    transform: translate(-180%, -60%);
+    transform: translate(-260%, -60%);
   }
   .blog .col-4 {
     padding: 0px 10px;
@@ -1281,6 +1336,10 @@ footer .ftb-right ul li a:hover {
   header .header-nav nav ul li {
     padding: 5px;
   }
+  header .header-nav nav ul li .badge {
+    top: 3px;
+    left: 23px;
+  }
   header .header-banner .social-link {
     display: none;
   }
@@ -1298,10 +1357,10 @@ footer .ftb-right ul li a:hover {
   }
   header .header-banner .disc-btn {
     font-size: 8px;
-    line-height: 4px;
+    line-height: 9px;
   }
   header .header-banner .disc-btn a {
-    padding: 3px 9px;
+    padding: 7px 11px;
   }
   .header-bottom .col-4 .ct .txt-3 {
     font-size: 13px;
@@ -1368,61 +1427,24 @@ footer .ftb-right ul li a:hover {
     width: 100%;
     padding: 0 15px;
   }
-  .banner .container {
-    width: 375px;
-  }
   .banner .container .banner-ct img {
     width: 100%;
     height: 208.25px;
-  }
-  .banner .container .banner-ct .txt-banner-1 {
-    transform: translate(3px, -100px);
-  }
-  .banner .container .banner-ct .txt-banner-1 .txt-8 {
-    font-size: 18px;
-  }
-  .banner .container .banner-ct .txt-banner-1 .txt-9 {
-    line-height: 0px;
-  }
-  .banner .container .banner-ct .txt-banner-5 {
-    transform: translate(3px, -100px);
-  }
-  .banner .container .banner-ct .txt-banner-5 .txt-8 {
-    font-size: 18px;
-  }
-  .banner .container .banner-ct .txt-banner-5 .txt-9 {
-    line-height: 0px;
-  }
-  .banner .container .banner-ct .box-txt-3 {
-    bottom: 85px;
-    left: 46px;
-  }
-  .banner .container .banner-ct .box-txt-3 .btxt-5 {
-    font-size: 13px;
-    line-height: 0;
-  }
-  .banner .container .banner-ct .box-txt-3 .btxt-6 {
-    font-size: 35px;
-    word-spacing: 0;
-    line-height: 0;
-  }
-  .banner .container .banner-ct .box-txt-6 {
-    top: 100px;
-    left: 63px;
-  }
-  .banner .container .banner-ct .box-txt-6 .btxt-8 {
-    font-size: 38px;
-    line-height: 34px;
-  }
-  .banner .container .banner-ct .box-txt-6 .btxt-9 {
-    font-size: 12px;
-    line-height: 14px;
   }
   .blog h3 {
     transform: translate(-325%, -60%);
   }
   .blog .col-4 {
     padding: 0px 0px;
+  }
+  .list .list-top h3 {
+    font-size: 30px;
+  }
+  .list .list-top .vm-btn {
+    padding-top: 64px;
+  }
+  .list .list-top .vm-btn .i-vm {
+    top: 66px;
   }
   .list .list-bot .col-3 {
     width: 100%;
