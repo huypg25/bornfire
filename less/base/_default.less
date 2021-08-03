@@ -5,7 +5,7 @@ body{
     font-family: 'Cormorant Garamond', serif;
     font-size: 16px;
     font-weight: normal;
-    // overflow-x: hidden;
+    overflow-x: hidden;
     
 }
 html{
@@ -37,11 +37,11 @@ p{
 
 
 .container{
-   max-width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+    box-sizing: border-box
 }
 .container-fluid{
     width: 100%;
@@ -62,26 +62,24 @@ p{
         position: relative;
    
     
-    .prev_arrow{
+    .prev{
         color: black;
         z-index: 100;
         position: absolute;
-        bottom: 150px;
+        bottom: 162px;
         left: -10%;
-        font-size: 34px;
-        font-style: italic;
+        font-size: 23px;
         cursor: pointer;
 opacity: 0;
 
     }
-    .next_arrow{
+    .next{
         color: black;
         z-index: 100;
         position: absolute;
-        bottom: 150px;
+        bottom: 162px;
         right:  -10%;
-        font-size: 34px;
-        font-style: italic;
+        font-size: 23px;
         cursor: pointer;
         opacity: 0;
     }

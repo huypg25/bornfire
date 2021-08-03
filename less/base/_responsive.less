@@ -30,6 +30,27 @@
       }
     }
   }
+  .list {
+    .list-bot {
+      .item {
+        &:hover {
+          .product-action-grid {
+          width: 263px;
+          }
+        }
+        .product-action-grid {
+          width: 263px;
+        }
+        .list-img {
+          .s-img {
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
   .banner {
     .container {
       width: 1170px;
@@ -92,6 +113,7 @@
     }
   }
   .blog {
+  
     .col-4 {
       padding: 0px 10px;
     }
@@ -201,10 +223,11 @@
         &:hover {
           .product-action-grid {
             top: 230px;
+            width: 226px;
           }
         }
         .product-action-grid {
-          width: 100%;
+          width: 226px;
           top: 265px;
         }
         .list-img {
@@ -349,6 +372,9 @@
   }
   .list {
     .list-bot {
+      .col-3 {
+        width: 33.3333%;
+      }
       .item {
         &:hover {
           .product-action-grid {
@@ -564,11 +590,12 @@
       .item {
         &:hover {
           .product-action-grid {
-            top: 230px;
+            top: 268px;
+            width: 258px;
           }
         }
         .product-action-grid {
-          width: 100%;
+          width: 258px;
           top: 265px;
         }
         .list-img {
@@ -810,29 +837,33 @@
   }
   .blog {
     h3 {
-      transform: translate(-180%, -60%);
+      transform: translate(-325%, -60%);
     }
     .col-4 {
-      padding: 0px 10px;
+      padding: 0px 0px;
     }
   }
   .list {
     .list-bot {
       .col-3 {
-        width: 50%;
+        width: 100%;
       }
       .item {
+        margin: 0 auto;
+        width: 78%;
         &:hover {
           .product-action-grid {
-            top: 230px;
+            top: 280px;
+            width: 345px;
           }
         }
         .product-action-grid {
           width: 100%;
-          top: 265px;
+          top: 400px;
         }
         .list-img {
           .s-img {
+            width: 270px;
             img {
               width: 100%;
             }
@@ -859,8 +890,9 @@
       .col-8 {
         width: 100%;
         ul {
+          font-size: 10px;
           li {
-            padding: 0 15px;
+            padding: 0 5px;
           }
           transform: translate(0, 0);
         }
@@ -883,7 +915,10 @@
     .inner-ft-bot .ftb-left {
       p {
         font-size: 13px;
-      }
+      }    padding-bottom: 20px;
+    }
+    .inner-ft-bot .ftb-right{
+      transform: translate(79px, -74px);
     }
   }
 }
