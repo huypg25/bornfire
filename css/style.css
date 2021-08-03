@@ -703,7 +703,7 @@ footer ul {
   transform: translate(-5px, 72px);
 }
 footer ul li {
-  padding: 0 17px;
+  padding: 0 16.5px;
 }
 footer ul li a:hover {
   color: #d6ba8d;
