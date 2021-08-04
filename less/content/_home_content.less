@@ -344,6 +344,9 @@ z-index: 100;
           font-weight: bold;
           line-height: 23.35px;
           letter-spacing: 0.1em;
+          word-spacing: -1px;
+          padding-left: 10px;
+          padding-right: 3px;
           text-transform: uppercase;
         }
         .action-item-box {
@@ -363,14 +366,15 @@ z-index: 100;
         }
       }
       &:hover {
-        .prev{
+        .slick-prev{
           opacity: 1;
+
           left: 2%;
           transition: 1s;
       
       }
-      .next{
-   opacity: 1;
+      .slick-next{
+        opacity: 1;
           right: 2%;
           transition: 1s;
       }

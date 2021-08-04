@@ -62,9 +62,9 @@ p{
         position: relative;
    
     
-    .prev{
+    .slick-prev{
+        z-index: 9999;
         color: black;
-        z-index: 100;
         position: absolute;
         bottom: 162px;
         left: -10%;
@@ -73,15 +73,15 @@ p{
 opacity: 0;
 
     }
-    .next{
+        .slick-next{
         color: black;
-        z-index: 100;
         position: absolute;
         bottom: 162px;
         right:  -10%;
         font-size: 23px;
         cursor: pointer;
-        opacity: 0;
+        opacity: 0;        z-index: 9999;
+
     }
- 
+
 }

@@ -52,9 +52,9 @@ p {
 .list-img {
   position: relative;
 }
-.list-img .prev {
+.list-img .slick-prev {
+  z-index: 9999;
   color: black;
-  z-index: 100;
   position: absolute;
   bottom: 162px;
   left: -10%;
@@ -62,15 +62,15 @@ p {
   cursor: pointer;
   opacity: 0;
 }
-.list-img .next {
+.list-img .slick-next {
   color: black;
-  z-index: 100;
   position: absolute;
   bottom: 162px;
   right: -10%;
   font-size: 23px;
   cursor: pointer;
   opacity: 0;
+  z-index: 9999;
 }
 header {
   background-repeat: no-repeat;
@@ -514,6 +514,9 @@ header .header-banner .social-link a:hover::after {
   font-weight: bold;
   line-height: 23.35px;
   letter-spacing: 0.1em;
+  word-spacing: -1px;
+  padding-left: 10px;
+  padding-right: 3px;
   text-transform: uppercase;
 }
 .list .list-bot .item .product-action-grid .add-to-cart a {
@@ -534,12 +537,12 @@ header .header-banner .social-link a:hover::after {
   background-color: #585858;
   width: 33.3333%;
 }
-.list .list-bot .item:hover .prev {
+.list .list-bot .item:hover .slick-prev {
   opacity: 1;
   left: 2%;
   transition: 1s;
 }
-.list .list-bot .item:hover .next {
+.list .list-bot .item:hover .slick-next {
   opacity: 1;
   right: 2%;
   transition: 1s;
