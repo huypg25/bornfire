@@ -1,16 +1,19 @@
 @media all and (max-width: 1170px) {
-  .slick-prev{
+  .prev{
     left: 0 !important;
   }
-  .slick-next{
+  .next{
     right: 0 !important;
   }
   header {
-    
+    // height: 111vh;
     .header-banner {
       .header-txt {
+        transform: translate(13%, 68%);
         &-1 {
-          
+          font-size: 16px;
+          line-height: 15.23px;
+          transform: translate(4px, -107%);
         }
         &-2 {
           font-size: 65px;
@@ -18,10 +21,14 @@
         }
       }
       .social-link {
-       
+        transform: translate(28%, 105%);
+        font-size: 24px;
+
+        line-height: 40px;
         a {
           &:hover {
             &::after {
+              transform: translate(118px, -18px);
             }
           }
         }
@@ -33,11 +40,11 @@
       .item {
         &:hover {
           .product-action-grid {
-          width: 100%;
+          width: 263px;
           }
         }
         .product-action-grid {
-          width: 100%;
+          width: 263px;
         }
         .list-img {
           .s-img {
@@ -79,6 +86,7 @@
           height: 315.05px;
         }
         .txt-banner-1 {
+          transform: translate(3px, -100px);
 
           .txt-8 {
             font-size: 18px;
@@ -163,23 +171,38 @@ img{
   }
 }
 @media all and (max-width: 1024px) {
-
+  .prev{
+    bottom: 133px !important;
+    left: 0 !important;
+  }
+  .next{
+    bottom: 133px !important;
+    right: 0 !important;
+  }
   header {
-
+  
     .header-banner {
       .header-txt {
+        transform: translate(13%, 68%);
         &-1 {
-        
+          font-size: 16px;
+          line-height: 15.23px;
+          transform: translate(4px, -107%);
         }
         &-2 {
-          
+          font-size: 65px;
+          line-height: 66px;
         }
       }
       .social-link {
-  
+        transform: translate(64%, 115%);
+        font-size: 18px;
+
+        line-height: 25px;
         a {
           &:hover {
             &::after {
+              transform: translate(90px, -10px);
             }
           }
         }
@@ -279,9 +302,13 @@ img{
       .item {
         &:hover {
           .product-action-grid {
+            top: 230px;
+            width: 226px;
           }
         }
         .product-action-grid {
+          width: 226px;
+          top: 265px;
         }
         .list-img {
           .s-img {
@@ -302,55 +329,48 @@ img{
   }
   footer {
     .sb-btn {
-      transform:translate(-60px, 62px)
-
+      transform: translate(-25px, 62px);
     }
   }
 }
 @media all and (max-width: 768px) {
   header {
-
+    
     .header-banner {
       .header-txt {
-        transform: translateY(100%);
+        transform: translate(13%, 43%);
         &-1 {
-          // font-size: 10px;
-          // line-height: 6.23px;
+          font-size: 10px;
+          line-height: 6.23px;
+          transform: translate(4px, -107%);
         }
         &-2 {
-          font-size: 50px;
-           line-height: 50px;
+          font-size: 40px;
+          line-height: 37px;
         }
         .disc-btn {
-          // font-size: 12px;
-          // line-height: 9px;
+          font-size: 12px;
+          line-height: 9px;
           a {
-            // padding: 10px 26px;
+            padding: 10px 26px;
           }
         }
       }
       .social-link {
-        // font-size: 15px;
-        transform: translateY(35%);
-        // line-height: 24px;
+        transform: translate(38%, 115%);
+        font-size: 15px;
+
+        line-height: 24px;
         a {
           &:hover {
             &::after {
+              transform: translate(75px, -10px);
             }
           }
         }
       }
     }
-
   }
-  .header-bottom .col-4 .ct .txt-3 {
-    font-family: "Cormorant Garamond", serif;
-    font-weight: bold;
-    font-size: 13px;
-    letter-spacing: 0.1em;
-    line-height: 18px;
-    text-transform: uppercase;
-}
   .slogan {
     font-size: 30px;
   }
@@ -435,6 +455,7 @@ img{
   }
   .blog {
     h3 {
+      transform: translate(-180%, -60%);
     }
     .col-4 { margin: auto;
       padding: 0px 10px;
@@ -446,15 +467,14 @@ img{
         width: 33.3333%;
       }
       .item {
-      
         &:hover {
           .product-action-grid {
+            top: 230px;
           }
         }
-        .product-action-grid {  .add-to-cart{
-          font-size: 10px;
-        }
+        .product-action-grid {
           width: 100%;
+          top: 265px;
         }
         .list-img {
           .s-img {
@@ -499,20 +519,6 @@ img{
         margin-right: auto;
       }
     }
-    .inner-ft-bot{
-      text-align: center;
-     .ftb-left{
-       padding: 0;width: 100%;
-     }
-      .ftb-right{
-        width: 100%;
-        transform: translate(0,0);
-        ul{
-          transform: translate(0,0);
-        }
-      }
-
-    }
   }
 }
 @media all and (max-width: 576px) {
@@ -520,8 +526,11 @@ img{
   
     .header-nav {
       .logo {
+        padding-left: 15px;
+        padding-top: 15px;
       }
       nav {
+        transform: translate(0px, 17px);
         ul {
           display: flex;
           .iconify {
@@ -538,24 +547,26 @@ img{
 
     .header-banner {
       .header-txt {
-        text-align: center;
+        transform: translate(13%, 43%);
         &-1 {
-          // font-size: 10px;
-          // line-height: 6.23px;
+          font-size: 10px;
+          line-height: 6.23px;
+          transform: translate(4px, -107%);
         }
         &-2 {
-          // font-size: 28px;
-          // line-height: 25px;
+          font-size: 28px;
+          line-height: 25px;
         }
       }
       .social-link {
-        display: none;
-        // font-size: 15px;
-        // line-height: 24px;
+        transform: translate(5%, 45%);
+        font-size: 15px;
+        line-height: 24px;
         a {
           &:hover {
             &::after {
-            
+              transform: translate(75px, -10px);
+              width: 51%;
             }
           }
         }
@@ -569,16 +580,9 @@ img{
       }
     }
   }
-
-  
   .header-bottom .col-4 .ct .txt-3 {
     font-size: 13px;
     line-height: 19px;
-   
-  }
-  .header-bottom .col-4 .ct .txt-4 {
-    font-size: 10px;
-   
   }
 
   .slogan {
@@ -658,7 +662,8 @@ img{
     }
   }
   .blog {
-   
+    h3 {
+      transform: translate(-260%, -60%);    }
     .col-4 {
       padding: 0px 10px;
     }
@@ -671,9 +676,13 @@ img{
       .item {
         &:hover {
           .product-action-grid {
+            top: 268px;
+            width: 258px;
           }
         }
         .product-action-grid {
+          width: 258px;
+          top: 265px;
         }
         .list-img {
           .s-img {
@@ -733,36 +742,30 @@ img{
 }
 @media all and (max-width: 375px) {
   header {
-   &::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0,0,0,0.1);
-    height: 1000px;
-   }
+ 
     .header-nav {
       .logo {
+        padding-left: 15px;
+        padding-top: 15px;
       }
-    //   nav {
-    //     ul {
-    //       display: flex;
-    //       .iconify {
-    //         color: white;
-    //         width: 30px;
-    //         height: 30px;
-    //       }
-    //       li {
-    //         .badge{
-    //           top: 3px;
-    // left: 23px;
-    //         }
-    //         padding: 5px;
-    //       }
-    //     }
-    //   }
+      nav {
+        transform: translate(0px, 17px);
+        ul {
+          display: flex;
+          .iconify {
+            color: white;
+            width: 30px;
+            height: 30px;
+          }
+          li {
+            .badge{
+              top: 3px;
+    left: 23px;
+            }
+            padding: 5px;
+          }
+        }
+      }
     }
 
     .header-banner {
@@ -772,23 +775,31 @@ img{
 
       .header-txt {
         .disc-btn {
-     
+          font-size: 8px;
+          line-height: 9px;
           a {
-     
+            padding: 5px 5px;       
            }
         }
+        transform: translate(13%, 43%);
         &-1 {
-      
+          font-size: 8px;
+          line-height: 6.23px;
+          transform: translate(4px, -107%);
         }
         &-2 {
-      
+          font-size: 20px;
+          line-height: 17px;
         }
       }
 
      
     }
   }
-
+  .header-bottom .col-4 .ct .txt-3 {
+    font-size: 13px;
+    line-height: 19px;
+  }
   .header-bottom {
     .t3 {
       height: 45px;
@@ -922,7 +933,9 @@ img{
     }
   }
   .blog {
-  
+    h3 {
+      transform: translate(-325%, -60%);
+    }
     .col-4 {
       padding: 0px 0px;
     }
@@ -947,11 +960,13 @@ img{
         width: 78%;
         &:hover {
           .product-action-grid {
-            width: 100%;
+            top: 280px;
+            width: 345px;
           }
         }
         .product-action-grid {
           width: 100%;
+          top: 400px;
         }
         .list-img {
           .s-img {
@@ -1008,24 +1023,10 @@ img{
     .inner-ft-bot .ftb-left {
       p {
         font-size: 13px;
-      }    
+      }    padding-bottom: 20px;
     }
     .inner-ft-bot .ftb-right{
+      transform: translate(79px, -74px);
     }
-  }
-}
-@media all and (max-width: 1900px) {
-  .social-link {
-    a {
-      &:hover {
-        &::after {display: none;
-        
-        }
-      }
-    
-    }
-     
-      
- 
   }
 }
