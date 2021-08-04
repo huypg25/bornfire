@@ -740,6 +740,9 @@ footer .sb-btn {
   transform: translate(10px, 62px);
   width: 158px;
 }
+footer .sb-btn:hover a {
+  color: #d6ba8d;
+}
 footer .sb-btn a {
   font-family: "Fira Sans", sans-serif;
   font-size: 14px;
@@ -1396,7 +1399,7 @@ footer .ftb-right ul li a:hover {
 }
 @media all and (max-width: 1900px) {
   .social-link a:hover::after {
-    display: none;
+    display: none !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
