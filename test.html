@@ -9,56 +9,89 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="js/slick.js"></script>
- <script>
 
-$('.responsive').slick({
-  dots: true,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
- </script>
 		
  
     <title>Document</title>
+    <style>
+        .prev{
+      display: block;
+      height: 20px;
+      width: 20px;
+      background: url('img/layer_42.png') no-repeat;
+    }
+
+    .next{
+      display: block;
+      height: 20px;
+      width: 20px;
+      background: url('../img/next.png') no-repeat;
+    }
+    </style>
 </head>
- <div class="responsive">
-     <div class="A">A</div>
-     <div class="A">B</div>
+<body>
+  
+  <div class="slickcarousel">
+    <div class="div">
+      <img src="https://via.placeholder.com/150/0000FF/808080
 
-     <div class="A">C</div>
+     " alt="">
+    </div>
+    <div class="div">
+      <img src="https://via.placeholder.com/150/666666/808080
 
-     <div class="A">Ds</div>
+     " alt="">
+    </div>
+    <div class="div">
+      <img src="https://via.placeholder.com/150/333333/808080
 
- </div>
+     " alt="">
+    </div>
+    <div class="div">
+      <img src="https://via.placeholder.com/150/0000FF/808080
+
+     " alt="">
+    </div>
+    <div class="div">
+      <img src="https://via.placeholder.com/150/666666/808080
+
+     " alt="">
+    </div>
+    <div class="div">
+      <img src="https://via.placeholder.com/150/333333/808080
+
+     " alt="">
+    </div>
+    <div class="div">
+      <img src="https://via.placeholder.com/150/0000FF/808080
+
+     " alt="">
+    </div>
+    <div class="div">
+      <img src="https://via.placeholder.com/150/666666/808080
+
+     " alt="">
+    </div>
+    <div class="div">
+      <img src="https://via.placeholder.com/150/333333/808080
+
+     " alt="">
+    </div>
+  </div>
+<script>
+
+$('.slickcarousel').slick({
+                 infinite: true,
+                  slidesToShow: 4,
+                  slidesToScroll: 1,
+                  centerMode: true,
+                  autoplay: true,
+                  prevArrow: $('.prev'),
+      nextArrow: $('.next'),
+            
+                  autoplaySpeed: 2000,
+                  pauseOnHover: true
+              });
+</script>
 </body>
 </html>

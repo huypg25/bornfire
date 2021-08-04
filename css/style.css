@@ -52,7 +52,7 @@ p {
 .list-img {
   position: relative;
 }
-.list-img .slick-prev {
+.list-img .pr {
   z-index: 9999;
   color: black;
   position: absolute;
@@ -62,7 +62,7 @@ p {
   cursor: pointer;
   opacity: 0;
 }
-.list-img .slick-next {
+.list-img .ne {
   color: black;
   position: absolute;
   bottom: 50%;
@@ -162,6 +162,9 @@ header .header-banner .header-txt .disc-btn {
   font-size: 16px;
   text-transform: uppercase;
   line-height: 24px;
+}
+header .header-banner .header-txt .disc-btn:hover a {
+  background-color: #333;
 }
 header .header-banner .header-txt .disc-btn a {
   color: #fff;
@@ -556,12 +559,12 @@ header .header-banner .social-link .container {
   background-color: #585858;
   width: 33.3333%;
 }
-.list .list-bot .item:hover .slick-prev {
+.list .list-bot .item:hover .pr {
   opacity: 1;
   left: 2%;
   transition: 1s;
 }
-.list .list-bot .item:hover .slick-next {
+.list .list-bot .item:hover .ne {
   opacity: 1;
   right: 2%;
   transition: 1s;
@@ -788,10 +791,10 @@ footer .ftb-right ul li a:hover {
   color: black;
 }
 @media all and (max-width: 1170px) {
-  .slick-prev {
+  .pr {
     left: 0 !important;
   }
-  .slick-next {
+  .ne {
     right: 0 !important;
   }
   header .header-banner .header-txt-2 {

@@ -643,7 +643,7 @@
            <div class="col-4">
             <a href="#">
               <div class="blg">
-                <img class="img-top" src="img/blog-3.jpg" alt="blog-3" />
+                <img class="img-top" src="img/blog-1.jpg" alt="blog-1" />
                 <div class="blg-bot">
                 <span>JULY 14TH, 2016</span>
                 <p>Wait, there’s a human on<br />the other end?</p>
@@ -673,7 +673,7 @@
              <div class="col-4"> 
               <a href="#">
                 <div class="blg">
-                  <img class="img-top" src="img/blog-3.jpg" alt="blog-3" />
+                  <img class="img-top" src="img/blog-2.jpg" alt="blog-2" />
                   <div class="blg-bot">
                   <span>JULY 14TH, 2016</span>
                   <p>Wait, there’s a human on<br />the other end?</p>
@@ -840,16 +840,15 @@
         $(".list-img").slick({
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: true,
+          // arrows: true,
           infinite: true,
-  speed: 500,
+  speed: 500,arrows:true,
 
           prevArrow:
-            '<span class="iconify slick-prev" data-icon="icons8:angle-left" data-inline="false"></span>',
+            '<div><span class="iconify pr slick-prev" data-icon="icons8:angle-left" data-inline="false"></span></div>',
           nextArrow:
-            '<span class="iconify slick-next" data-icon="icons8:angle-right" data-inline="false"></span>',
-            
-        });
+            '<div><span class="iconify ne slick-next" data-icon="icons8:angle-right" data-inline="false"></span></div>',
+                   });
       });
      
     </script>
