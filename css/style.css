@@ -182,9 +182,11 @@ header .header-banner .social-link {
 }
 header .header-banner .social-link a {
   color: #ede8e1;
+  opacity: 0.8;
 }
 header .header-banner .social-link a:hover {
   color: #eae6d3;
+  opacity: 1;
 }
 header .header-banner .social-link a:hover::after {
   background-color: #333;
@@ -606,7 +608,7 @@ header .header-banner .social-link .container {
   font-weight: bold;
   position: absolute;
   top: -43px;
-  width: 96%;
+  width: 97.5%;
   text-align: center;
 }
 .blog .gt-btn {
@@ -729,7 +731,7 @@ footer ul {
   transform: translate(-5px, 72px);
 }
 footer ul li {
-  padding: 0 30px;
+  padding: 0 16.5px;
 }
 footer ul li a:hover {
   color: #d6ba8d;
@@ -875,6 +877,9 @@ footer .ftb-right ul li a:hover {
   .banner .container .banner-ct .box-txt-6 .btxt-9 {
     font-size: 12px;
     line-height: 14px;
+  }
+  .blog h3 {
+    width: 96%;
   }
   .blog .col-4 {
     margin: auto;
