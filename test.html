@@ -14,84 +14,30 @@
  
     <title>Document</title>
     <style>
-        .prev{
-      display: block;
-      height: 20px;
-      width: 20px;
-      background: url('img/layer_42.png') no-repeat;
+      .box-txt {
+     
     }
-
-    .next{
-      display: block;
-      height: 20px;
-      width: 20px;
-      background: url('../img/next.png') no-repeat;
+    .box-txt::before{
+      content: '';
+        width: 0;
+      height: 0;
+      border-bottom: 100px solid red;
+      border-right: 100px solid transparent;
     }
     </style>
 </head>
 <body>
   
-  <div class="slickcarousel">
-    <div class="div">
-      <img src="https://via.placeholder.com/150/0000FF/808080
-
-     " alt="">
-    </div>
-    <div class="div">
-      <img src="https://via.placeholder.com/150/666666/808080
-
-     " alt="">
-    </div>
-    <div class="div">
-      <img src="https://via.placeholder.com/150/333333/808080
-
-     " alt="">
-    </div>
-    <div class="div">
-      <img src="https://via.placeholder.com/150/0000FF/808080
-
-     " alt="">
-    </div>
-    <div class="div">
-      <img src="https://via.placeholder.com/150/666666/808080
-
-     " alt="">
-    </div>
-    <div class="div">
-      <img src="https://via.placeholder.com/150/333333/808080
-
-     " alt="">
-    </div>
-    <div class="div">
-      <img src="https://via.placeholder.com/150/0000FF/808080
-
-     " alt="">
-    </div>
-    <div class="div">
-      <img src="https://via.placeholder.com/150/666666/808080
-
-     " alt="">
-    </div>
-    <div class="div">
-      <img src="https://via.placeholder.com/150/333333/808080
-
-     " alt="">
-    </div>
-  </div>
+    
+  <div class="box-txt">
+    <p class="btxt-1">sale up to</p>
+    <p class="btxt-2">70%</p>
+    <p class="btxt-3">Select Gold Clearance</p>
+    <p class="btxt-4">shop now</p>
+   </div>
 <script>
 
-$('.slickcarousel').slick({
-                 infinite: true,
-                  slidesToShow: 4,
-                  slidesToScroll: 1,
-                  centerMode: true,
-                  autoplay: true,
-                  prevArrow: $('.prev'),
-      nextArrow: $('.next'),
-            
-                  autoplaySpeed: 2000,
-                  pauseOnHover: true
-              });
+
 </script>
 </body>
 </html>
