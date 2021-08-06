@@ -679,6 +679,9 @@ header .header-banner .social-link .container {
   width: 100%;
   border-top: 1px #efefef solid;
 }
+.blog .blg .blg-bot .lv svg {
+  color: #92c5d9;
+}
 .blog .blg .blg-bot .lv a .txt-7 {
   color: #696969;
   margin-left: 5px;
